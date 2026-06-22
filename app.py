@@ -16,7 +16,7 @@ WEATHER_KEY = st.secrets["WEATHER_API_KEY"]
 
 # Configure AI Engine
 genai.configure(api_key=GEMINI_KEY)
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-pro')
 
 # Weather Fetcher Function
 def get_live_weather(tehsil_name):
